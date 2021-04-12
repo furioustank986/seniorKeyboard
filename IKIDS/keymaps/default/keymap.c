@@ -1,5 +1,6 @@
 #include "kb.h"
 uint16_t a;
+uint8_t b = 0;
 enum my_keycodes{
 	k1 = SAFE_RANGE,
 	k2,
@@ -130,7 +131,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record){
 				case 446:
 					SEND_STRING("p");
 					return false;
-				}
+			}
+			return false;
+		case shift:
+			if (b){
+				unregister_code(KC_LSHIFT);
+				b = 0;
+			} else {
+				register_code(KC_LSHIFT);
+				b = 1;
+			}
 	}
 	return false;
 }
