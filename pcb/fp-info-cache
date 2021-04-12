@@ -83604,58 +83604,58 @@ proton_c
 PROTON-C
 Standard Proton C Footprint.
 
-This allows you to mount the Proton C on the top of a board. It has a cutout to allow the speaker to be heard.
-
+0
+0
 0
 39
 39
 proton_c
 PROTON-C-BOTTOM
-Footprint for Proton C when mounted top-up to the bottom of the board.
-
-This has holes cut out to accomodate the USB connector and to allow you to press the RESET button using a small tool. This will allow you to place the top side of the Proton C towards the board and still have a low profile.
+0
+0
+0
 
 0
 39
 39
-proton_c
-PROTON-C-SMD
-Proton C Footprint.
+0
+0
+0
 
 This allows you to mount the Proton C on the top of a board. There are SMD pads corresponding to internal SMD pins.
 
 0
 47
 47
-proton_c
+0
 PROTON-C-SMD-SPEAKER
 Proton C Footprint.
 
 This allows you to mount the Proton C on the top of a board. There are SMD pads corresponding to internal SMD pins. There is a cutout for the speaker.
-
+0
 0
 47
 47
 proton_c
 PROTON-C-SPEAKER
 Standard Proton C Footprint.
-
-This allows you to mount the Proton C on the top of a board. It has a cutout to allow the speaker to be heard.
-
+0
+0
+0
 0
 39
 39
 proton_c
-PROTON-C-THT
-Proton C Footprint.
-
+0
+0
+0
 This allows you to mount the Proton C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins.
 
 0
 47
 47
-proton_c
-PROTON-C-THT-SPEAKER
+0
+0
 Proton C Footprint.
 
 This allows you to mount the Proton C on the top of a board. There are 0.5mm drill THT pads corresponding to internal SMD pins. There is a cutout for the speaker.

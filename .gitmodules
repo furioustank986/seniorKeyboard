@@ -7,3 +7,9 @@
 [submodule "pcb/qmk_hardware"]
 	path = pcb/qmk_hardware
 	url = https://github.com/qmk/qmk_hardware/
+[submodule "pcb/Keebio-Parts.pretty"]
+	path = pcb/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "pcb/keebio-components"]
+	path = pcb/keebio-components
+	url = https://github.com/keebio/keebio-components

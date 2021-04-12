@@ -1,4 +1,172 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U?
+U 1 1 6073A369
+P 9800 3400
+F 0 "U?" H 9800 4237 60  0000 C CNN
+F 1 "Elite-C" H 9800 4131 60  0000 C CNN
+F 2 "" V 10850 900 60  0001 C CNN
+F 3 "" V 10850 900 60  0001 C CNN
+	1    9800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6073C69E
+P 10830 3150
+F 0 "#PWR?" H 10830 3000 50  0001 C CNN
+F 1 "+5V" H 10845 3323 50  0000 C CNN
+F 2 "" H 10830 3150 50  0001 C CNN
+F 3 "" H 10830 3150 50  0001 C CNN
+	1    10830 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3150 10830 3150
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 6073F921
+P 6310 2460
+F 0 "SW?" H 6310 2797 60  0000 C CNN
+F 1 "MX-with-LED" H 6310 2691 60  0000 C CNN
+F 2 "" H 6310 2460 60  0001 C CNN
+F 3 "" H 6310 2460 60  0001 C CNN
+	1    6310 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60740815
+P 6930 2440
+F 0 "SW?" H 6930 2777 60  0000 C CNN
+F 1 "MX-with-LED" H 6930 2671 60  0000 C CNN
+F 2 "" H 6930 2440 60  0001 C CNN
+F 3 "" H 6930 2440 60  0001 C CNN
+	1    6930 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60740BB7
+P 7610 2440
+F 0 "SW?" H 7610 2777 60  0000 C CNN
+F 1 "MX-with-LED" H 7610 2671 60  0000 C CNN
+F 2 "" H 7610 2440 60  0001 C CNN
+F 3 "" H 7610 2440 60  0001 C CNN
+	1    7610 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60741A1C
+P 6320 3120
+F 0 "SW?" H 6320 3457 60  0000 C CNN
+F 1 "MX-with-LED" H 6320 3351 60  0000 C CNN
+F 2 "" H 6320 3120 60  0001 C CNN
+F 3 "" H 6320 3120 60  0001 C CNN
+	1    6320 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 6074236B
+P 6970 3130
+F 0 "SW?" H 6970 3467 60  0000 C CNN
+F 1 "MX-with-LED" H 6970 3361 60  0000 C CNN
+F 2 "" H 6970 3130 60  0001 C CNN
+F 3 "" H 6970 3130 60  0001 C CNN
+	1    6970 3130
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60742C04
+P 7630 3140
+F 0 "SW?" H 7630 3477 60  0000 C CNN
+F 1 "MX-with-LED" H 7630 3371 60  0000 C CNN
+F 2 "" H 7630 3140 60  0001 C CNN
+F 3 "" H 7630 3140 60  0001 C CNN
+	1    7630 3140
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60743ADE
+P 6340 3760
+F 0 "SW?" H 6340 4097 60  0000 C CNN
+F 1 "MX-with-LED" H 6340 3991 60  0000 C CNN
+F 2 "" H 6340 3760 60  0001 C CNN
+F 3 "" H 6340 3760 60  0001 C CNN
+	1    6340 3760
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60744327
+P 6970 3790
+F 0 "SW?" H 6970 4127 60  0000 C CNN
+F 1 "MX-with-LED" H 6970 4021 60  0000 C CNN
+F 2 "" H 6970 3790 60  0001 C CNN
+F 3 "" H 6970 3790 60  0001 C CNN
+	1    6970 3790
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60745679
+P 7650 3810
+F 0 "SW?" H 7650 4147 60  0000 C CNN
+F 1 "MX-with-LED" H 7650 4041 60  0000 C CNN
+F 2 "" H 7650 3810 60  0001 C CNN
+F 3 "" H 7650 3810 60  0001 C CNN
+	1    7650 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60746330
+P 5450 4280
+F 0 "SW?" H 5450 4617 60  0000 C CNN
+F 1 "MX-with-LED" H 5450 4511 60  0000 C CNN
+F 2 "" H 5450 4280 60  0001 C CNN
+F 3 "" H 5450 4280 60  0001 C CNN
+	1    5450 4280
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 607466A5
+P 5450 4960
+F 0 "SW?" H 5450 5297 60  0000 C CNN
+F 1 "MX-with-LED" H 5450 5191 60  0000 C CNN
+F 2 "" H 5450 4960 60  0001 C CNN
+F 3 "" H 5450 4960 60  0001 C CNN
+	1    5450 4960
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX-with-LED SW?
+U 1 1 60747263
+P 8430 4320
+F 0 "SW?" H 8430 4657 60  0000 C CNN
+F 1 "MX-with-LED" H 8430 4551 60  0000 C CNN
+F 2 "" H 8430 4320 60  0001 C CNN
+F 3 "" H 8430 4320 60  0001 C CNN
+	1    8430 4320
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
