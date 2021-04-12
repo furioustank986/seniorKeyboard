@@ -4,17 +4,17 @@
 #include "quantum.h"
 
 #define KEYMAP( \
-	               K03, K04, K05,           \
-	               K13, K14, K15,           \
-	               K23, K24, K25,           \
-	               K33,      K35,           \
-	               K43  \
+	K00, K01, K02, \
+	K10, K11, K12, \
+	K20, K21, K22, \
+	K30,      K32, \
+	K40  \
 ) { \
-	{ KC_NO, KC_NO, KC_NO, K03,   K04,   K05,   KC_NO, KC_NO }, \
-	{ KC_NO, KC_NO, KC_NO, K13,   K14,   K15,   KC_NO, KC_NO }, \
-	{ KC_NO, KC_NO, KC_NO, K23,   K24,   K25,   KC_NO, KC_NO }, \
-	{ KC_NO, KC_NO, KC_NO, K33,   KC_NO, K35,   KC_NO, KC_NO }, \
-	{ KC_NO, KC_NO, KC_NO, K43,   KC_NO, KC_NO, KC_NO, KC_NO }  \
+	{ K00,   K01,   K02 }, \
+	{ K10,   K11,   K12 }, \
+	{ K20,   K21,   K22 }, \
+	{ K30,   KC_NO, K32 }, \
+	{ K40,   KC_NO, KC_NO }  \
 }
 
 #endif
