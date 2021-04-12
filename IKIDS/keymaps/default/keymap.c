@@ -26,31 +26,31 @@ enum my_keycodes{
 bool process_record_user(uint16_t keycode, keyrecord_t *record){
 	switch (keycode){
 		case k1:
-			a = a^0b0000000000000001;
+			a = a^0b1;
 			return false;
 		case k2:
-			a = a^0b0000000000000010;
+			a = a^0b10;
 			return false;
 		case k3:
-			a = a^0b0000000000000100;
+			a = a^0b100;
 			return false;
 		case k4:
-			a = a^0b0000000000001000;
+			a = a^0b1000;
 			return false;
 		case k5:
-			a = a^0b0000000000010000;
+			a = a^0b10000;
 			return false;
 		case k6:
-			a = a^0b0000000000100000;
+			a = a^0b100000;
 			return false;
 		case k7:
-			a = a^0b0000000001000000;
+			a = a^0b1000000;
 			return false;
 		case k8:
-			a = a^0b0000000010000000;
+			a = a^0b10000000;
 			return false;
 		case k9:
-			a = a^0b0000000100000000;
+			a = a^0b100000000;
 			return false;
 		case send:
 			switch (a){
@@ -131,6 +131,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record){
 				case 446:
 					SEND_STRING("p");
 					return false;
+				default: return false;
 			}
 			return false;
 		case shift:
@@ -141,6 +142,35 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record){
 				register_code(KC_LSHIFT);
 				b = 1;
 			}
+			return false;
+		case m1:
+			SEND_STRING("Macro 1");
+			return false;
+		case m2:
+			SEND_STRING("Macro 2");
+			return false;
+		case m3:
+			SEND_STRING("Macro 3");
+			return false;
+		case m4:
+			SEND_STRING("Macro 4");
+			return false;
+		case m5:
+			SEND_STRING("Macro 5");
+			return false;
+		case m6:
+			SEND_STRING("Macro 6");
+			return false;
+		case m7:
+			SEND_STRING("Macro 7");
+			return false;
+		case m8:
+			SEND_STRING("Macro 8");
+			return false;
+		case m9:
+			SEND_STRING("Macro 9");
+			return false;
+		default: break;
 	}
 	return false;
 }
