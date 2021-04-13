@@ -22,12 +22,10 @@ F 1 "Elite-C" H 9530 3781 60  0000 C CNN
 F 2 "Keebio-Parts:Elite-C" V 10580 550 60  0001 C CNN
 F 3 "" V 10580 550 60  0001 C CNN
 	1    9530 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-Text GLabel 8730 2600 0    50   BiDi ~ 0
-row1
 Wire Wire Line
-	8730 2600 8830 2600
+	8730 3200 8830 3200
 Text GLabel 8730 3500 0    50   BiDi ~ 0
 row2
 Wire Wire Line
@@ -458,10 +456,10 @@ Wire Wire Line
 	5270 3230 5270 3830
 Text GLabel 5270 2190 1    50   BiDi ~ 0
 gnd
-Text GLabel 8690 2700 0    50   BiDi ~ 0
+Text GLabel 8690 2600 0    50   BiDi ~ 0
 gnd
 Wire Wire Line
-	8690 2700 8830 2700
+	8690 2600 8830 2600
 Text GLabel 5730 2530 2    50   BiDi ~ 0
 led1
 Text GLabel 6230 2530 2    50   BiDi ~ 0
@@ -498,9 +496,9 @@ Wire Wire Line
 	6150 2530 6230 2530
 Wire Wire Line
 	6650 2530 6730 2530
-Text GLabel 8700 2900 0    50   BiDi ~ 0
+Text GLabel 8700 3400 0    50   BiDi ~ 0
 led1
-Text GLabel 8700 3000 0    50   BiDi ~ 0
+Text GLabel 8700 3300 0    50   BiDi ~ 0
 led2
 Text GLabel 8700 3100 0    50   BiDi ~ 0
 led3
@@ -519,9 +517,9 @@ Wire Wire Line
 Wire Wire Line
 	8700 3100 8830 3100
 Wire Wire Line
-	8700 3000 8830 3000
+	8700 3300 8830 3300
 Wire Wire Line
-	8830 2900 8700 2900
+	8830 3400 8700 3400
 Wire Wire Line
 	8730 3600 8830 3600
 Text GLabel 8730 3600 0    50   BiDi ~ 0
@@ -538,4 +536,6 @@ Text GLabel 9530 4130 3    50   BiDi ~ 0
 led5
 Text GLabel 9430 4130 3    50   BiDi ~ 0
 led4
+Text GLabel 8730 3200 0    50   BiDi ~ 0
+row1
 $EndSCHEMATC

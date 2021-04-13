@@ -24,10 +24,10 @@ F 3 "" V 10580 550 60  0001 C CNN
 	1    9530 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8730 2500 0    50   BiDi ~ 0
+Text GLabel 8730 2600 0    50   BiDi ~ 0
 row1
 Wire Wire Line
-	8730 2500 8830 2500
+	8730 2600 8830 2600
 Text GLabel 8730 3500 0    50   BiDi ~ 0
 row2
 Wire Wire Line
@@ -40,7 +40,7 @@ Text GLabel 10330 3200 2    50   BiDi ~ 0
 row5
 Wire Wire Line
 	10330 3200 10230 3200
-Text GLabel 8730 3400 0    50   BiDi ~ 0
+Text GLabel 8730 2500 0    50   BiDi ~ 0
 col1
 Text GLabel 9330 4100 3    50   BiDi ~ 0
 col2
@@ -51,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	9330 4000 9330 4100
 Wire Wire Line
-	8730 3400 8830 3400
+	8730 2500 8830 2500
 $Comp
 L MX_Alps_Hybrid:MX-LED MX3
 U 1 1 60795CB1
