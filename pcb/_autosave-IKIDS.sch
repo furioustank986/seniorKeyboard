@@ -32,14 +32,14 @@ Text GLabel 8730 3500 0    50   BiDi ~ 0
 row2
 Wire Wire Line
 	8730 3500 8830 3500
-Text GLabel 8730 3200 0    50   BiDi ~ 0
+Text GLabel 10330 3600 2    50   BiDi ~ 0
 row4
 Wire Wire Line
-	8730 3200 8830 3200
-Text GLabel 8730 3300 0    50   BiDi ~ 0
+	10330 3600 10230 3600
+Text GLabel 9630 4100 3    50   BiDi ~ 0
 row5
 Wire Wire Line
-	8730 3300 8830 3300
+	9630 4100 9630 4000
 Text GLabel 8730 3400 0    50   BiDi ~ 0
 col1
 Text GLabel 9330 4100 3    50   BiDi ~ 0
@@ -498,11 +498,11 @@ Wire Wire Line
 	6150 2530 6230 2530
 Wire Wire Line
 	6650 2530 6730 2530
-Text GLabel 10360 2500 2    50   BiDi ~ 0
+Text GLabel 8700 2900 0    50   BiDi ~ 0
 led1
-Text GLabel 10360 2900 2    50   BiDi ~ 0
+Text GLabel 8700 3000 0    50   BiDi ~ 0
 led2
-Text GLabel 10360 3000 2    50   BiDi ~ 0
+Text GLabel 8700 3100 0    50   BiDi ~ 0
 led3
 Text GLabel 10360 3100 2    50   BiDi ~ 0
 led4
@@ -514,10 +514,10 @@ Text GLabel 10360 3400 2    50   BiDi ~ 0
 led7
 Text GLabel 10360 3500 2    50   BiDi ~ 0
 led8
-Text GLabel 10360 3600 2    50   BiDi ~ 0
+Text GLabel 10280 4110 2    50   BiDi ~ 0
 led9
 Wire Wire Line
-	10360 3600 10230 3600
+	10280 4110 10150 4110
 Wire Wire Line
 	10230 3500 10360 3500
 Wire Wire Line
@@ -529,11 +529,11 @@ Wire Wire Line
 Wire Wire Line
 	10230 3100 10360 3100
 Wire Wire Line
-	10360 3000 10230 3000
+	8700 3100 8830 3100
 Wire Wire Line
-	10360 2900 10230 2900
+	8700 3000 8830 3000
 Wire Wire Line
-	10230 2500 10360 2500
+	8830 2900 8700 2900
 Wire Wire Line
 	8730 3600 8830 3600
 Text GLabel 8730 3600 0    50   BiDi ~ 0
