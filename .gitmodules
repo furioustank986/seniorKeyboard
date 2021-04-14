@@ -1,15 +1,15 @@
 [submodule "pcb/MX_Alps_Hybrid"]
-	path = pcb/MX_Alps_Hybrid
+	path = pcb-diy/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
 [submodule "pcb/random-keyboard-parts.pretty"]
-	path = pcb/random-keyboard-parts.pretty
+	path = pcb-diy/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
 [submodule "pcb/qmk_hardware"]
-	path = pcb/qmk_hardware
+	path = pcb-diy/qmk_hardware
 	url = https://github.com/qmk/qmk_hardware/
 [submodule "pcb/Keebio-Parts.pretty"]
-	path = pcb/Keebio-Parts.pretty
+	path = pcb-diy/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
 [submodule "pcb/keebio-components"]
-	path = pcb/keebio-components
+	path = pcb-diy/keebio-components
 	url = https://github.com/keebio/keebio-components
