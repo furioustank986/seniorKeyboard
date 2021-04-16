@@ -925,4 +925,38 @@ Text GLabel 1970 6240 2    50   Input ~ 0
 D-
 Text GLabel 1970 6340 2    50   Input ~ 0
 D+
+Text GLabel 10140 2780 2    50   Input ~ 0
+col0
+Text GLabel 10140 2880 2    50   Input ~ 0
+col1
+Text GLabel 10140 2980 2    50   Input ~ 0
+col2
+Text GLabel 10140 3080 2    50   Input ~ 0
+row0
+Text GLabel 10140 3280 2    50   Input ~ 0
+row1
+Text GLabel 10140 4480 2    50   Input ~ 0
+row2
+Text GLabel 10140 1580 2    50   Input ~ 0
+led0
+Text GLabel 10140 1680 2    50   Input ~ 0
+led1
+Text GLabel 10140 1780 2    50   Input ~ 0
+led2
+Text GLabel 10140 3180 2    50   Input ~ 0
+led3
+Text GLabel 10140 3380 2    50   Input ~ 0
+led4
+Text GLabel 10140 3480 2    50   Input ~ 0
+led5
+Text GLabel 10140 2580 2    50   Input ~ 0
+led6
+Text GLabel 10140 2480 2    50   Input ~ 0
+led7
+Text GLabel 10140 1980 2    50   Input ~ 0
+led8
+Text GLabel 10140 4080 2    50   Input ~ 0
+row3
+Text GLabel 10140 4180 2    50   Input ~ 0
+row4
 $EndSCHEMATC
